@@ -27,8 +27,12 @@ source venv/bin/activate
  ## Docker
 
  ```shell
-docker build -t flask-api:tag .
+docker build -t sitemap-convert:1.0 .
 ```
+```shell
+docker run -p 5002:5000 sitemap-convert:1.0
+```
+
 
 ## Run Flask
 
