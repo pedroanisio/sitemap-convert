@@ -3,7 +3,11 @@
 ## PIP requirements
 
 ```shell
+pip install pipreqs
+```
 
+```shell
+pipreqs . --force
 ```
 
 ```shell
